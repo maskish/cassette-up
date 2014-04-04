@@ -23,3 +23,6 @@ group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
+
+#Heroku request: CVE-2014-2525
+gem 'psych', '~> 2.0.5'
